@@ -1,11 +1,7 @@
 #!/bin/bash
-
 # generate random passwords using urandom CSPRNG.  
-
-# randompass.sh v5.2 by Jones
-
+# randompass.sh v5.2
 # Usage: ./randompass.sh [-l=password length DEFAULT=16] [-n=number of passwords to generate DEFAULT=4] [-s=special characters DEFAULT=1. Set to 0 to disable selecting _!%] [-h=help]
-
 
 # ---- SET INITIAL VALUES ----
 length=16

@@ -1,6 +1,6 @@
 #!/bin/bash
 # batch replace environment variables
-# v 3.2 by Jones Mar 31, 2019
+# v 3.2 Mar 31, 2019
 # example: ./replaceenv.sh python python2 .
 
 progname=$0
