@@ -1,5 +1,5 @@
 #!/bin/bash
-# bulk-crop.sh v1.0 by JOnes: This script bulk crops a bunch of files to the same size and aspect ratio. This is very helpful when the scanner produced different sized images from the same sized pages of a notebook. This also helps when the user crops the images themselves and ends up producing different sized images. 
+# bulk-crop.sh: This script bulk crops a bunch of files to the same size and aspect ratio. This is very helpful when the scanner produced different sized images from the same sized pages of a notebook. This also helps when the user crops the images themselves and ends up producing different sized images. 
 
 USAGE="Usage: [-h help] [-r height in pixels [default=0]] filea1.jpg fileb2.jpg files*.jpg ... 
 When a height is not specified or -r 0 is used, the minimum height from all the files will be used."
